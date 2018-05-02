@@ -1,7 +1,8 @@
-#first_number = int(input("Enter first number "))
-#second_number = int(input("Enter second number "))
-#total = first_number + second_number
-#print(f"The first number is {first_number}, the second number is {second_number}, bringing to total to {total}")
+#def askUserInput()
+#    first_number = int(input("Enter first number "))
+#    second_number = int(input("Enter second number "))
+#   total = first_number + second_number
+ #   print(f"The first number is {first_number}, the second number is {second_number}, bringing to total to {total}")
 
 
 #make sure the indent is there, as anything outside of the indent is outside of the function.
@@ -15,6 +16,7 @@ def add(input_1,input_2):
     total = input_1 + input_2
     print("This needs to be before the return in order to work!")
     return total
+#(first_number,second_number) = askUserInput();
 
 some_variable = add(first_number,second_number)
 print(some_variable)

@@ -19,6 +19,10 @@ def add(input_1,input_2):
 some_variable = add(first_number,second_number)
 print(some_variable)
 
+#you can add a default value like "age = 22"
+def greet(first_name,last_name,age,address):
+    print(f"first name is {first_name} and last name is {last_name}")
+
 
 
 
